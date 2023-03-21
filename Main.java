@@ -1,5 +1,8 @@
 public class Main{
     public static void main(String[] args){
-        System.out.println("ola");
+        Respostas re = new Respostas();
+        re.respostaUm();
+        re.respostaDois(32);
+        re.respostaCinco("Giupy");
     }
 }
